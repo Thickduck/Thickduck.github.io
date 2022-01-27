@@ -9,6 +9,11 @@
     font-size: 20px;
   }
 }
+@media only screen and (max-width: 600px) {
+  :root {
+    font-size: 15px;
+  }
+}
 
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
@@ -32,9 +37,9 @@ body {
 }
 .button {
   font-family: "Roboto mono", monospace;
-  width: 500px;
-  height: 100px;
-  font-size: 1.5rem;
+  width: 15rem;
+  height: 5rem;
+  font-size: 1.3rem;
   background: none;
   color: #ffffff;
   background-color: rgb(240, 87, 87);
@@ -82,13 +87,13 @@ body {
   margin-top: 0;
 }
 .github {
-  width: 100px;
+  width: 3rem;
 }
 .github-a {
   text-decoration: none;
 }
 .youtube {
-  width: 100px;
+  width: 3rem;
 }
 .youtube-a {
   text-decoration: none;
@@ -101,5 +106,5 @@ body {
   text-decoration: none;
 }
 .discord {
-  width: 100px;
+  width: 3rem;
 }
