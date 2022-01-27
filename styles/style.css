@@ -14,7 +14,6 @@
     font-size: 15px;
   }
 }
-
 /* Custom Scrollbar */
 ::-webkit-scrollbar {
   width: 10px;
@@ -61,6 +60,7 @@ body {
   justify-content: center;
   color: #fff;
   font-family: "Roboto mono", monospace;
+  padding-top: 15px;
 }
 .title {
   font-size: 3rem;
@@ -107,4 +107,34 @@ body {
 }
 .discord {
   width: 3rem;
+}
+.header-nav {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 30px;
+}
+.nav-links {
+  list-style: none;
+}
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #ffffff;
+  transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+  color: rgb(240, 87, 87);
+}
+.favicon-nav {
+  padding: 0;
+  width: 10vw;
+  transition: all 0.3s ease 0s;
+}
+.favicon-ico {
+  width: 10vw;
+  float: left;
 }
