@@ -14,14 +14,25 @@
     font-size: 15px;
   }
 }
-/* Custom Scrollbar */
 ::-webkit-scrollbar {
-  width: 10px;
-  color: #000;
-}
-::-webkit-scrollbar-thumb {
   width: 5px;
-  color: #fff;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #121214;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(158, 158, 158);
+  border-radius: 12px;
+  transition: all 1s ease 0s;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(75, 75, 75);
 }
 body {
   background-color: #25252a;
@@ -136,5 +147,11 @@ body {
 }
 .favicon-ico {
   width: 10vw;
-  float: left;
+  transition: transform 0.3s ease-in-out 0s;
+}
+.favicon-ico:hover {
+  transform: scale(1.5); 
+}
+.twitter {
+  width: 2.9rem;
 }
